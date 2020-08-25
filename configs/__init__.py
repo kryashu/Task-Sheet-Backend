@@ -1,0 +1,5 @@
+from ..configs.DBConfig import DBConfig
+
+class Config:
+    SQLALCHEMY_DATABASE_URI = DBConfig.SQLALCHEMY_DATABASE_URI
+    SQLALCHEMY_TRACK_MODIFICATIONS = False
